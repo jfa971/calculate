@@ -5,6 +5,8 @@
 //  Created by Jean Francois Antier on 7/16/17.
 //  Copyright © 2017 Jean Francois Antier. All rights reserved.
 //
+// ================= CONTROLER =================
+//
 
 import UIKit
 
@@ -54,7 +56,7 @@ class ViewController: UIViewController {
         if let mathSymbol = sender.currentTitle {
             switch mathSymbol {
             case "π":
-               displayValue= Double.pi
+               displayValue = Double.pi
             case "√":
                 displayValue = sqrt(displayValue)
             default:
